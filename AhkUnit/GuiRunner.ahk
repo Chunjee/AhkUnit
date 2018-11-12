@@ -1,7 +1,7 @@
 ; Copyright (c) 2011, SATO Kentaro
 ; BSD 2-Clause license
 
-#include %A_AppData%\AhkUnit\AhkUnit.ahk
+#include %A_ScriptDir%\AhkUnit\AhkUnit.ahk
 
 class AhkUnit_GuiRunner extends AhkUnit_Runner {
 	static nextGuiWindowIndex := 1
