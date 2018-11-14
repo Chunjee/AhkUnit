@@ -441,7 +441,7 @@ AhkUnit.Assert := AhkUnit_Assert
 
 
 ;/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\
-; AhkUnit_Assert Class
+; AhkUnit_Runner Class
 ;\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/
 class AhkUnit_Runner {
 	; result, message, count
@@ -575,7 +575,7 @@ AhkUnit.Runner := AhkUnit_Runner
 
 
 ;/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\
-; AhkUnit_Assert Class
+; assert Class
 ;\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/--\--/
 class assert extends AhkUnit.FrameworkCore {
 	__New() {
